@@ -1,3 +1,4 @@
+// Modified by The Agent Factory for Claude Academy: rebranding and web language detection (see BRANDING.md).
 //! Native UI-language preferences, queried once without subprocesses or registry parsing.
 
 use super::{Lang, lang_from_tag};
@@ -54,7 +55,14 @@ fn detect_system_tags() -> Vec<String> {
 
 #[cfg(all(not(test), target_arch = "wasm32"))]
 fn detect_system_tags() -> Vec<String> {
-    Vec::new()
+    // Claude Academy: `?lang=xx` from the tools page first, then the browser's preferred languages.
+    let Some(win) = web_sys::window() else { return Vec::new() };
+    let mut tags: Vec<String> = Vec::new();
+    if let Ok(search) = win.location().search() {
+        tags.extend(search.trim_start_matches('?').split('&').filter_map(|kv| kv.strip_prefix("lang=")).map(str::to_owned));
+    }
+    tags.extend(win.navigator().languages().iter().filter_map(|v| v.as_string()));
+    tags
 }
 
 #[cfg(test)]

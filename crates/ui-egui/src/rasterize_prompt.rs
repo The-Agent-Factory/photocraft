@@ -1,4 +1,4 @@
-// Modified by The Agent Factory for Claude Academy: rebranding only (see BRANDING.md).
+// Modified by The Agent Factory for Claude Academy: rebranding and web language detection (see BRANDING.md).
 //! "Rasterize?" prompt: painting the pixels of a type, shape, Smart Object or fill layer with a
 //! pixel tool asks first, as Photoshop does ("This type layer must be rasterized before
 //! proceeding. Its text will no longer be editable. Rasterize the type?"), instead of failing

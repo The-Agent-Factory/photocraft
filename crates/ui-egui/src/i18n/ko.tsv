@@ -1,4 +1,4 @@
-# Modified by The Agent Factory for Claude Academy: rebranding only (see BRANDING.md).
+# Modified by The Agent Factory for Claude Academy: rebranding and web language detection (see BRANDING.md).
 # Korean (ko) catalog. UTF-8: context<TAB>English source<TAB>translation.
 # Empty context: plain UI text; @id: command ID; @plural: one|other source
 # with one Korean form. Other contexts disambiguate English meanings.

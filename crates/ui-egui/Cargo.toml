@@ -1,3 +1,4 @@
+# Modified by The Agent Factory for Claude Academy: rebranding and web language detection (see BRANDING.md).
 [package]
 name = "photocraft-ui-egui"
 version.workspace = true
@@ -44,6 +45,10 @@ flate2 = { workspace = true }
 rayon = { workspace = true }
 # Safe native UI-language APIs (Windows/macOS); no subprocess or web dependency.
 sys-locale = "=0.3.2"
+
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+# Claude Academy: the tools page passes `?lang=xx`; otherwise the browser's preferred languages.
+web-sys = { version = "0.3", features = ["Window", "Location", "Navigator"] }
 
 [dev-dependencies]
 # Synthetic raw files for the open-time Camera Raw dialog tests.

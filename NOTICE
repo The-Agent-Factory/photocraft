@@ -23,7 +23,7 @@ BIZ UDMincho; not the web build), under the SIL Open Font License 1.1. Their lic
 ship with the package as OFL-<family>.txt.
 
 --------------------------------------------------------------------------------
-Modified by The Agent Factory for Claude Academy: rebranding only (see BRANDING.md).
+Modified by The Agent Factory for Claude Academy: rebranding and web language detection (see BRANDING.md).
 This modified version is published as "Atelier Photo". It is based on PhotoCraft by the
 ArtCraft team (https://github.com/storytold/photocraft). It is not an ArtCraft product and is not
 affiliated with or endorsed by the ArtCraft team, Adobe or Microsoft. The ArtCraft name and

@@ -1,7 +1,10 @@
 # BRANDING.md: Atelier Photo (based on PhotoCraft)
 
-This branch (`academy`) is PhotoCraft by the ArtCraft team with **rebranding only**, made by
-The Agent Factory for Claude Academy. No feature, format or engine code is changed.
+This branch (`academy`) is PhotoCraft by the ArtCraft team with **rebranding** and one small
+change made by The Agent Factory for Claude Academy: in the browser build, the interface language follows
+`?lang=xx` in the page address (set by the Claude Academy tools page), then the browser's preferred
+languages (upstream always shows English on the web). Where the app has no French catalog we add
+one (`rebrand/apps/<app>/fr.tsv` in the deploy repo). No format or engine code is changed.
 
 | | |
 |---|---|
@@ -25,6 +28,7 @@ In-app links: community -> https://www.skool.com/claudeacademy, website -> https
 
 - `apps/photocraft-web/index.html`
 - `apps/photocraft-web/src/web.rs`
+- `crates/ui-egui/Cargo.toml`
 - `crates/ui-egui/src/canvas.rs`
 - `crates/ui-egui/src/dialogs.rs`
 - `crates/ui-egui/src/i18n/cs.tsv`
@@ -40,6 +44,7 @@ In-app links: community -> https://www.skool.com/claudeacademy, website -> https
 - `crates/ui-egui/src/i18n/pl.tsv`
 - `crates/ui-egui/src/i18n/pt-br.tsv`
 - `crates/ui-egui/src/i18n/ru.tsv`
+- `crates/ui-egui/src/i18n/system.rs`
 - `crates/ui-egui/src/i18n/uk.tsv`
 - `crates/ui-egui/src/i18n/zh-hans.tsv`
 - `crates/ui-egui/src/i18n/zh-hant.tsv`
