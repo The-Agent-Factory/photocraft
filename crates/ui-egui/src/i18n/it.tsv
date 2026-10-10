@@ -1,3 +1,4 @@
+# Modified by The Agent Factory for Claude Academy: rebranding only (see BRANDING.md).
 # Italian (it) catalog. Columns, separated by a TAB:  context <TAB> source <TAB> translation
 #
 #   context  empty                a plain UI string; `source` is the English text in the code
@@ -702,11 +703,11 @@
 	Timeline	Timeline
 	Tool Presets	Predefiniti strumento
 	Tools	Strumenti
-	About PhotoCraft	Informazioni su PhotoCraft
-	PhotoCraft Website	Sito web PhotoCraft
+	About Atelier Photo	About Atelier Photo
+	Atelier Photo Website	Atelier Photo Website
 	PhotoCraft on GitHub	PhotoCraft su GitHub
-	ArtCraft Website	Sito web ArtCraft
-	Join the ArtCraft Discord…	Unisciti al Discord di ArtCraft…
+	Claude Academy website	Claude Academy website
+	Claude Academy community…	Claude Academy community…
 	Report an Issue…	Segnala un problema…
 	WIA Support…	Supporto WIA…
 	Apply	Applica
@@ -967,7 +968,7 @@
 	Diffusion	Diffusione
 	Discard the embedded profile (don't color manage)	Scarta profilo incorporato (non gestire colore)
 	Discontiguous	Non contiguo
-	Discord	Discord
+	Community	Community
 	Dismiss	Chiudi
 	Display P3	Display P3
 	Display Text	Testo display
@@ -1097,7 +1098,7 @@
 	Invert All	Inverti tutto
 	Invert has no settings.	Inverti non ha impostazioni.
 	Italic	Corsivo
-	Join us on Discord	Unisciti al nostro Discord
+	Join the community	Join the community
 	Justify all	Giustifica tutto
 	Justify last centered	Giustifica ultimo centrato
 	Justify last left	Giustifica ultimo a sinistra
@@ -1232,9 +1233,9 @@
 	Perspective Warp is not active	Altera prospettiva non attiva
 	Perspective Warp: draw planes along the image's perspective, then switch to Warp	Altera prospettiva: disegna piani lungo la prospettiva immagine, poi passa ad Altera
 	Photo Filter	Filtro fotografico
-	PhotoCraft	PhotoCraft
+	Atelier Photo	Atelier Photo
 	PhotoCraft Manages Colors	PhotoCraft gestisce i colori
-	PhotoCraft — an open-source, native image editor written in Rust.	PhotoCraft — editor immagini nativo open-source scritto in Rust.
+	Atelier Photo — an open-source, native image editor written in Rust.	Atelier Photo — an open-source, native image editor written in Rust.
 	Pin Depth:	Profondità pin:
 	Pixel Length:	Lunghezza pixel:
 	Pixels/Centimeter	Pixel/Centimetro
@@ -1495,7 +1496,7 @@
 	Apple Watch 45mm	Apple Watch 45mm
 	Aqua	Acqua
 	Art & Illustration	Arte e illustrazione
-	ArtCraft	ArtCraft
+	Claude Academy	Claude Academy
 	Background Eraser Tool	Strumento Gomma per sfondo
 	Bevel & Emboss	Smusso ed effetto rilievo
 	Blend Mode	Metodo di fusione
@@ -1630,7 +1631,7 @@
 	Pen Tilt	Inclinazione penna
 	Pen Tool	Strumento Penna
 	Photo	Foto
-	PhotoCraft website	Sito web PhotoCraft
+	Atelier Photo website	Atelier Photo website
 	Picas	Pica
 	Pillow Emboss	Rilievo cuscino
 	Pixel Replacement	Sostituzione pixel

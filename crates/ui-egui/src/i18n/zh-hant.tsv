@@ -1,3 +1,4 @@
+# Modified by The Agent Factory for Claude Academy: rebranding only (see BRANDING.md).
 # Traditional Chinese (zh-hant) catalog. Columns, separated by a TAB:  context <TAB> source <TAB> translation
 #
 #   context  empty                a plain UI string; `source` is the English text in the code
@@ -712,11 +713,11 @@
 	Timeline	時間軸
 	Tool Presets	工具預設集
 	Tools	工具
-	About PhotoCraft	關於 PhotoCraft
-	PhotoCraft Website	PhotoCraft 網站
+	About Atelier Photo	About Atelier Photo
+	Atelier Photo Website	Atelier Photo Website
 	PhotoCraft on GitHub	GitHub 上的 PhotoCraft
-	ArtCraft Website	ArtCraft 網站
-	Join the ArtCraft Discord…	加入 ArtCraft Discord…
+	Claude Academy website	Claude Academy website
+	Claude Academy community…	Claude Academy community…
 	Report an Issue…	回報問題…
 	WIA Support…	WIA 支援…
 	Apply	套用
@@ -972,7 +973,7 @@
 	Diffusion	擴散
 	Discard the embedded profile (don't color manage)	捨棄嵌入的描述檔 (不進行色彩管理)
 	Discontiguous	不連續
-	Discord	Discord
+	Community	Community
 	Dismiss	關閉
 	Display P3	Display P3
 	Display Text	顯示文字
@@ -1104,7 +1105,7 @@
 	Invert All	全部反轉
 	Invert has no settings.	負片效果沒有設定。
 	Italic	斜體
-	Join us on Discord	加入我們的 Discord
+	Join the community	Join the community
 	Justify all	全部齊行
 	Justify last centered	最後一行置中齊行
 	Justify last left	最後一行靠左齊行
@@ -1239,9 +1240,9 @@
 	Perspective Warp is not active	透視彎曲未啟用
 	Perspective Warp: draw planes along the image's perspective, then switch to Warp	透視彎曲：沿影像透視繪製平面，然後切換到彎曲
 	Photo Filter	相片濾鏡
-	PhotoCraft	PhotoCraft
+	Atelier Photo	Atelier Photo
 	PhotoCraft Manages Colors	PhotoCraft 管理色彩
-	PhotoCraft — an open-source, native image editor written in Rust.	PhotoCraft — 以 Rust 撰寫的開放原始碼原生影像編輯器。
+	Atelier Photo — an open-source, native image editor written in Rust.	Atelier Photo — an open-source, native image editor written in Rust.
 	Pin Depth:	圖釘深度：
 	Pixel Length:	像素長度：
 	Pixels/Centimeter	像素/公分
@@ -1502,7 +1503,7 @@
 	Apple Watch 45mm	Apple Watch 45mm
 	Aqua	水藍色
 	Art & Illustration	藝術與插畫
-	ArtCraft	ArtCraft
+	Claude Academy	Claude Academy
 	Background Eraser Tool	背景橡皮擦工具
 	Bevel & Emboss	斜角和浮雕
 	Blend Mode	混合模式
@@ -1638,7 +1639,7 @@
 	Pen Tilt	筆傾斜
 	Pen Tool	筆型工具
 	Photo	相片
-	PhotoCraft website	PhotoCraft 網站
+	Atelier Photo website	Atelier Photo website
 	Picas	派卡
 	Pillow Emboss	枕狀浮雕
 	Pixel Replacement	像素取代

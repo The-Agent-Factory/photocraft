@@ -1,3 +1,4 @@
+// Modified by The Agent Factory for Claude Academy: rebranding only (see BRANDING.md).
 //! Community and project links: the Help menu, the About dialog, the start screen and the title
 //! bar all open these. URLs follow the crafting-app pattern (`getartcraft.com/apps/<app>`,
 //! `github.com/storytold/<app>`).
@@ -6,9 +7,9 @@ use serde_json::{Value, json};
 
 use crate::PhotocraftApp;
 
-pub const DISCORD: &str = "https://discord.gg/artcraft";
-pub const ARTCRAFT_WEBSITE: &str = "https://getartcraft.com";
-pub const APP_PAGE: &str = "https://getartcraft.com/apps/photocraft";
+pub const DISCORD: &str = "https://www.skool.com/claudeacademy";
+pub const ARTCRAFT_WEBSITE: &str = "https://claudeacademy.ca";
+pub const APP_PAGE: &str = "https://claudeacademy.ca";
 pub const GITHUB: &str = "https://github.com/storytold/photocraft";
 pub const ISSUES: &str = "https://github.com/storytold/photocraft/issues";
 
@@ -33,7 +34,7 @@ pub fn open(app: &mut PhotocraftApp, ctx: &egui::Context, url: &str) -> Value {
 
 /// The prominent "Join us on Discord" button.
 pub fn discord_button(app: &mut PhotocraftApp, ui: &mut egui::Ui, min_width: f32) -> egui::Response {
-    let r = crate::widgets::primary_button(ui, tl!("Join us on Discord"), min_width).on_hover_text(DISCORD);
+    let r = crate::widgets::primary_button(ui, tl!("Join the community"), min_width).on_hover_text(DISCORD);
     if r.clicked() {
         open(app, ui.ctx(), DISCORD);
     }
@@ -44,7 +45,7 @@ pub fn discord_button(app: &mut PhotocraftApp, ui: &mut egui::Ui, min_width: f32
 /// platform browser service) rather than `ui.hyperlink_to`, which uses the unreliable `ctx.open_url`.
 pub fn link_row(app: &mut PhotocraftApp, ui: &mut egui::Ui) {
     let t = crate::theme::Tokens::get(ui.ctx());
-    let links = [(tl!("PhotoCraft website"), APP_PAGE), (tl!("GitHub"), GITHUB), (tl!("ArtCraft"), ARTCRAFT_WEBSITE)];
+    let links = [(tl!("Atelier Photo website"), APP_PAGE), (tl!("GitHub"), GITHUB), (tl!("Claude Academy"), ARTCRAFT_WEBSITE)];
     let font = egui::FontId::proportional(12.5);
     let sep = "  ·  ";
     let width: f32 = links.iter().map(|(l, _)| ui.painter().layout_no_wrap((*l).into(), font.clone(), t.text).size().x).sum::<f32>()

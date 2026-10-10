@@ -1,3 +1,4 @@
+// Modified by The Agent Factory for Claude Academy: rebranding only (see BRANDING.md).
 //! Document canvas: display texture cache, view transform, tool input, extra document windows.
 //!
 //! Rendering is CPU (`photocraft-compose`) for now, uploaded into an egui texture. Brush strokes
@@ -2019,7 +2020,7 @@ fn start_screen(app: &mut PhotocraftApp, ui: &mut egui::Ui) {
     ui.scope_builder(egui::UiBuilder::new().max_rect(card), |ui| {
         ui.vertical_centered(|ui| {
             ui.horizontal(|ui| {
-                let title = ui.painter().layout_no_wrap(tl!("PhotoCraft").into(), crate::theme::semibold(38.0), t.text);
+                let title = ui.painter().layout_no_wrap(tl!("Atelier Photo").into(), crate::theme::semibold(38.0), t.text);
                 let by = ui.painter().layout_no_wrap(tl!("open source").into(), egui::FontId::proportional(13.0), t.text_faint);
                 let total = title.size().x + by.size().x + 10.0;
                 ui.add_space(((card.width() - total) / 2.0).max(0.0));

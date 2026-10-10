@@ -21,3 +21,11 @@ Builds made with craft-fonts (CRAFT_FONTS_DIR; all official releases) also embed
 https://github.com/storytold/craft-fonts/blob/main/ATTRIBUTION.md (today BIZ UDPGothic, Shippori Mincho and
 BIZ UDMincho; not the web build), under the SIL Open Font License 1.1. Their licence texts
 ship with the package as OFL-<family>.txt.
+
+--------------------------------------------------------------------------------
+Modified by The Agent Factory for Claude Academy: rebranding only (see BRANDING.md).
+This modified version is published as "Atelier Photo". It is based on PhotoCraft by the
+ArtCraft team (https://github.com/storytold/photocraft). It is not an ArtCraft product and is not
+affiliated with or endorsed by the ArtCraft team, Adobe or Microsoft. The ArtCraft name and
+marks have been removed as required by docs/brand/LICENSE-brand.txt of the original project.
+All original copyright notices and the MIT and Apache-2.0 licenses are kept unchanged.

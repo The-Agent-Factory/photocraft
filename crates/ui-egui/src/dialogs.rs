@@ -1,3 +1,4 @@
+// Modified by The Agent Factory for Claude Academy: rebranding only (see BRANDING.md).
 //! Dialogs rendered from `UiState::dialogs`. Field values live in the dialog data, so automation can
 //! set them (`ui.dialog.set`) and confirm (`ui.dialog.confirm`) exactly like a user.
 
@@ -348,7 +349,13 @@ fn about_tab_body(app: &mut PhotocraftApp, ui: &mut egui::Ui, tab: &str) {
         "contributors" => crate::credits::contributors_ui(ui),
         "models" => crate::credits::models_ui(ui),
         _ => {
-            ui.label(tl!("PhotoCraft — an open-source, native image editor written in Rust."));
+            ui.label(tl!("Atelier Photo — an open-source, native image editor written in Rust."));
+            ui.label(egui::RichText::new(tl!("Free preview from Claude Academy.")).weak());
+            ui.label(
+                egui::RichText::new(tl!("Based on PhotoCraft by the ArtCraft team (github.com/storytold/photocraft). Not affiliated with the ArtCraft team, Adobe or Microsoft."))
+                    .weak()
+                    .small(),
+            );
             ui.label(crate::i18n::fmt(tl!("Version {version}"), &[("version", &photocraft_engine::build_info::long_version())]));
             ui.add_space(12.0);
             ui.vertical_centered(|ui| {
@@ -380,7 +387,7 @@ pub fn title(d: &Dialog) -> String {
     match d.kind {
         DialogKind::NewDocument => "New Document".into(),
         DialogKind::About if d.fields.get("systemInfo").and_then(Value::as_bool) == Some(true) => "System Info".into(),
-        DialogKind::About => "About PhotoCraft".into(),
+        DialogKind::About => "About Atelier Photo".into(),
         DialogKind::LayerStyle => "Layer Style".into(),
         DialogKind::Command => d.fields.get("__label").and_then(Value::as_str).unwrap_or("Command").trim_end_matches('…').to_string(),
         DialogKind::Error => "Error".into(),

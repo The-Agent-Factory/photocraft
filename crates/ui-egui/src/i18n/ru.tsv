@@ -1,3 +1,4 @@
+# Modified by The Agent Factory for Claude Academy: rebranding only (see BRANDING.md).
 # Russian (ru) catalog. Columns, separated by a TAB:  context <TAB> source <TAB> translation
 #
 #   context  empty                a plain UI string; `source` is the English text in the code
@@ -455,12 +456,12 @@
 	Hide All	Скрыть все
 
 # Help
-	About PhotoCraft	О программе PhotoCraft
-	PhotoCraft Website	Сайт PhotoCraft
+	About Atelier Photo	About Atelier Photo
+	Atelier Photo Website	Atelier Photo Website
 	PhotoCraft on GitHub	PhotoCraft на GitHub
 	Report an Issue…	Сообщить о проблеме…
-	ArtCraft Website	Сайт ArtCraft
-	Join the ArtCraft Discord…	Discord сообщества ArtCraft…
+	Claude Academy website	Claude Academy website
+	Claude Academy community…	Claude Academy community…
 	System Info…	Информация о системе…
 
 # Tools and options bar
@@ -1553,9 +1554,9 @@
 	Preserve Transparency	Сохранить прозрачность
 	Reverse	Обратить
 	Align with layer	По слою
-	Join us on Discord	Мы в Discord
-	PhotoCraft website	Сайт PhotoCraft
-	ArtCraft	ArtCraft
+	Join the community	Join the community
+	Atelier Photo website	Atelier Photo website
+	Claude Academy	Claude Academy
 	GitHub	GitHub
 	No character style	Нет стиля символов
 	No author	Нет автора
@@ -1955,7 +1956,7 @@
 	Delete tool preset	Удалить набор инструментов
 	Depth Jitter	Колебание глубины
 	Discontiguous	Несмежные пикселы
-	Discord	Discord
+	Community	Community
 	Display P3	Display P3
 	Display Text	Показывать текст
 	Divide…	Деление…
@@ -2040,8 +2041,8 @@
 	Output:	Выход:
 	Paint Overlay	Перекрытие краской
 	Pattern Size	Размер паттерна
-	PhotoCraft	PhotoCraft
-	PhotoCraft — an open-source, native image editor written in Rust.	PhotoCraft — открытый нативный графический редактор на Rust.
+	Atelier Photo	Atelier Photo
+	Atelier Photo — an open-source, native image editor written in Rust.	Atelier Photo — an open-source, native image editor written in Rust.
 	Position and Size	Положение и размер
 	Preserve Details	Сохранять детали
 	Preserve Luminosity	Сохранять светлоту

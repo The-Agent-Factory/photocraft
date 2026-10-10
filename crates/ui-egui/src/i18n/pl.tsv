@@ -1,3 +1,4 @@
+# Modified by The Agent Factory for Claude Academy: rebranding only (see BRANDING.md).
 # Polish (pl) catalog. Columns, separated by a TAB:  context <TAB> source <TAB> translation
 #
 #   context  empty                a plain UI string; `source` is the English text in the code
@@ -706,11 +707,11 @@
 	Timeline	Oś czasu
 	Tool Presets	Ustawienia wstępne narzędzi
 	Tools	Narzędzia
-	About PhotoCraft	O programie PhotoCraft
-	PhotoCraft Website	Strona internetowa PhotoCraft
+	About Atelier Photo	About Atelier Photo
+	Atelier Photo Website	Atelier Photo Website
 	PhotoCraft on GitHub	PhotoCraft na GitHubie
-	ArtCraft Website	Strona internetowa ArtCraft
-	Join the ArtCraft Discord…	Dołącz do Discorda ArtCraft…
+	Claude Academy website	Claude Academy website
+	Claude Academy community…	Claude Academy community…
 	Report an Issue…	Zgłoś problem…
 	WIA Support…	Obsługa WIA…
 	Apply	Zastosuj
@@ -970,7 +971,7 @@
 	Diffusion	Dyfuzja
 	Discard the embedded profile (don't color manage)	Odrzuć osadzony profil (bez zarządzania kolorami)
 	Discontiguous	Niesąsiadujące
-	Discord	Discord
+	Community	Community
 	Dismiss	Zamknij
 	Display P3	Display P3
 	Display Text	Tekst wyświetlany
@@ -1098,7 +1099,7 @@
 	Invert All	Odwróć wszystko
 	Invert has no settings.	Odwracanie nie ma ustawień.
 	Italic	Kursywa
-	Join us on Discord	Dołącz do nas na Discordzie
+	Join the community	Join the community
 	Justify all	Wyjustuj wszystko
 	Justify last centered	Wyjustuj, ostatni wiersz wyśrodkowany
 	Justify last left	Wyjustuj, ostatni wiersz do lewej
@@ -1233,9 +1234,9 @@
 	Perspective Warp is not active	Wypaczenie perspektywy nie jest aktywne
 	Perspective Warp: draw planes along the image's perspective, then switch to Warp	Wypaczenie perspektywy: narysuj płaszczyzny zgodnie z perspektywą obrazu, a następnie przełącz na wypaczenie
 	Photo Filter	Filtr fotograficzny
-	PhotoCraft	PhotoCraft
+	Atelier Photo	Atelier Photo
 	PhotoCraft Manages Colors	Kolorami zarządza PhotoCraft
-	PhotoCraft — an open-source, native image editor written in Rust.	PhotoCraft — natywny edytor obrazów o otwartym kodzie źródłowym, napisany w Rust.
+	Atelier Photo — an open-source, native image editor written in Rust.	Atelier Photo — an open-source, native image editor written in Rust.
 	Pin Depth:	Głębokość szpilki:
 	Pixel Length:	Długość w pikselach:
 	Pixels/Centimeter	Pikseli/centymetr
@@ -1494,7 +1495,7 @@
 	Apple Watch 45mm	Apple Watch 45 mm
 	Aqua	Błękit morski
 	Art & Illustration	Sztuka i ilustracja
-	ArtCraft	ArtCraft
+	Claude Academy	Claude Academy
 	Background Eraser Tool	Narzędzie Gumka tła
 	Bevel & Emboss	Ukos i płaskorzeźba
 	Blend Mode	Tryb mieszania
@@ -1630,7 +1631,7 @@
 	Pen Tilt	Nachylenie pióra
 	Pen Tool	Narzędzie Pióro
 	Photo	Zdjęcie
-	PhotoCraft website	Strona internetowa PhotoCraft
+	Atelier Photo website	Atelier Photo website
 	Picas	Pikasy
 	Pillow Emboss	Płaskorzeźba poduszkowa
 	Pixel Replacement	Zamiana pikseli
@@ -2994,7 +2995,7 @@ cameraRaw	Roughness	Chropowatość
 	Custom Pixel Aspect Ratio	Niestandardowe proporcje pikseli
 	32-bit Preview Options	Opcje podglądu 32-bitowego
 	New Guide	Nowa prowadnica
-	Join the ArtCraft Discord	Dołącz do Discorda ArtCraft
+	Claude Academy community	Claude Academy community
 	Report an Issue	Zgłoś problem
 	WIA Support	Obsługa WIA
 	Load Files into Stack	Wczytaj pliki do stosu

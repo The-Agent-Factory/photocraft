@@ -1,3 +1,4 @@
+# Modified by The Agent Factory for Claude Academy: rebranding only (see BRANDING.md).
 # Greek (el) PhotoCraft interface catalog.
 # Columns separated by TAB: context, English source, Greek translation.
 # Original translations based on general Greek graphics/computing terminology.
@@ -157,7 +158,7 @@
 	Distort	Παραμόρφωση
 	Pixelate	Εικονοστοιχείωση
 	Render	Απόδοση
-	About PhotoCraft	Πληροφορίες για το PhotoCraft
+	About Atelier Photo	About Atelier Photo
 
 # Consolidated Greek localization additions
 	Content-Aware Fill…	Γέμισμα βάσει περιεχομένου…
@@ -738,7 +739,7 @@
 	Perspective Warp is not active	Ο μετασχηματισμός προοπτικής δεν είναι ενεργός
 	Perspective Warp: draw planes along the image's perspective, then switch to Warp	Μετασχηματισμός προοπτικής: σχεδιάστε επίπεδα σύμφωνα με την προοπτική της εικόνας και έπειτα επιλέξτε Παραμόρφωση
 	PhotoCraft Manages Colors	Διαχείριση χρωμάτων από το PhotoCraft
-	PhotoCraft — an open-source, native image editor written in Rust.	PhotoCraft — εγγενής εφαρμογή επεξεργασίας εικόνας ανοικτού κώδικα, γραμμένη σε Rust.
+	Atelier Photo — an open-source, native image editor written in Rust.	Atelier Photo — an open-source, native image editor written in Rust.
 	Pixels/Centimeter	Εικονοστοιχεία/εκατοστό
 	Pixels/Inch	Εικονοστοιχεία/ίντσα
 	Position and Size	Θέση και μέγεθος
@@ -760,7 +761,7 @@
 	Quick Export As PNG	Γρήγορη εξαγωγή ως PNG
 	Radial Gradient	Ακτινική διαβάθμιση
 	Paints from the document's opening state	Ζωγραφίζει χρησιμοποιώντας την αρχική κατάσταση του εγγράφου
-	PhotoCraft website	Ιστότοπος PhotoCraft
+	Atelier Photo website	Atelier Photo website
 	Pen Pressure	Πίεση γραφίδας
 	Pen Tilt	Κλίση γραφίδας
 	Portrait, 4 x 6	Κατακόρυφο, 4 × 6
@@ -1173,7 +1174,7 @@
 	Custom Pixel Aspect Ratio	Προσαρμοσμένη αναλογία εικονοστοιχείων
 	32-bit Preview Options	Επιλογές προεπισκόπησης 32 bit
 	New Guide	Νέος οδηγός
-	Join the ArtCraft Discord	Συμμετοχή στο Discord του ArtCraft
+	Claude Academy community	Claude Academy community
 	Report an Issue	Αναφορά προβλήματος
 	Load Files into Stack	Φόρτωση αρχείων σε στοίβα
 	Statistics	Στατιστικά
@@ -1965,7 +1966,7 @@
 	Arc	Τόξο
 	Arch	Καμάρα
 	Art & Illustration	Τέχνη και εικονογράφηση
-	ArtCraft Website	Ιστότοπος ArtCraft
+	Claude Academy website	Claude Academy website
 	Artboard Background Color	Χρώμα φόντου πίνακα σχεδίασης
 	Artboard Guides	Οδηγοί πίνακα σχεδίασης
 	Artboard from Group	Πίνακας σχεδίασης από ομάδα
@@ -2443,8 +2444,8 @@
 	Iris Blur…	Θόλωση ίριδας…
 	Italic	Πλάγια
 	Jag	Οδοντωτό
-	Join the ArtCraft Discord…	Συμμετοχή στο Discord του ArtCraft…
-	Join us on Discord	Ελάτε στην κοινότητά μας στο Discord
+	Claude Academy community…	Claude Academy community…
+	Join the community	Join the community
 	Jpeg quality	Ποιότητα JPEG
 	Justification	Πλήρης στοίχιση
 	Justify	Πλήρης στοίχιση
@@ -2684,7 +2685,7 @@
 	Performance	Επιδόσεις
 	Perspective Warp	Παραμόρφωση προοπτικής
 	Photo	Φωτογραφία
-	PhotoCraft Website	Ιστότοπος PhotoCraft
+	Atelier Photo Website	Atelier Photo Website
 	PhotoCraft on GitHub	PhotoCraft στο GitHub
 	Photocopy	Φωτοαντίγραφο
 	Photography	Φωτογραφία
@@ -3259,7 +3260,7 @@ cameraRaw	Yellow	Κίτρινο
 	Add to Swatches	Προσθήκη στα δείγματα χρωμάτων
 	Alt	Alt
 	Anamorphic 2:1 (2)	Αναμορφικό 2:1 (2)
-	ArtCraft	ArtCraft
+	Claude Academy	Claude Academy
 	Blend If:	Ανάμειξη υπό όρους:
 	Channels:	Κανάλια:
 	Click a red pupil to neutralize it	Κάντε κλικ σε μια κόκκινη κόρη για να την εξουδετερώσετε
@@ -3274,7 +3275,7 @@ cameraRaw	Yellow	Κίτρινο
 	D1/DV PAL Widescreen (1.46)	D1/DV PAL ευρεία οθόνη (1.46)
 	DVCPRO HD 1080/HDV 1080 (1.5)	DVCPRO HD 1080/HDV 1080 (1.5)
 	Darken Amount	Ποσότητα σκουρέματος
-	Discord	Discord
+	Community	Community
 	Display P3	Display P3
 	Edit › Paste	Επεξεργασία › Επικόλληση
 	Edits that change the whole document, such as a layer's blend mode, opacity or visibility, redraw all of it.	Οι αλλαγές που επηρεάζουν όλο το έγγραφο, όπως η λειτουργία ανάμειξης, η αδιαφάνεια ή η ορατότητα ενός επιπέδου, το επανασχεδιάζουν ολόκληρο.
@@ -3296,7 +3297,7 @@ cameraRaw	Yellow	Κίτρινο
 	New Swatch Group…	Νέα ομάδα δειγμάτων χρωμάτων…
 	New Swatch…	Νέο δείγμα χρώματος…
 	OpenType	OpenType
-	PhotoCraft	PhotoCraft
+	Atelier Photo	Atelier Photo
 	Pupil Size	Μέγεθος κόρης
 	Replace Swatches…	Αντικατάσταση δειγμάτων χρωμάτων…
 	Reset Swatches	Επαναφορά δειγμάτων χρωμάτων

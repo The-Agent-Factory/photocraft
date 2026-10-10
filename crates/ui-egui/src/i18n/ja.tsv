@@ -1,3 +1,4 @@
+# Modified by The Agent Factory for Claude Academy: rebranding only (see BRANDING.md).
 # Japanese (ja) catalog. Columns, separated by a TAB:  context <TAB> source <TAB> translation
 #
 #   context  empty                a plain UI string; `source` is the English text in the code
@@ -708,11 +709,11 @@
 	Timeline	タイムライン
 	Tool Presets	ツールプリセット
 	Tools	ツール
-	About PhotoCraft	PhotoCraft について
-	PhotoCraft Website	PhotoCraft の Web サイト
+	About Atelier Photo	About Atelier Photo
+	Atelier Photo Website	Atelier Photo Website
 	PhotoCraft on GitHub	GitHub 上の PhotoCraft
-	ArtCraft Website	ArtCraft の Web サイト
-	Join the ArtCraft Discord…	ArtCraft の Discord に参加…
+	Claude Academy website	Claude Academy website
+	Claude Academy community…	Claude Academy community…
 	Report an Issue…	問題を報告…
 	WIA Support…	WIA サポート…
 	Apply	適用
@@ -971,7 +972,7 @@
 	Diffusion	拡散
 	Discard the embedded profile (don't color manage)	埋め込みプロファイルを破棄(カラーマネジメントしない)
 	Discontiguous	不連続
-	Discord	Discord
+	Community	Community
 	Dismiss	閉じる
 	Display P3	Display P3
 	Display Text	表示テキスト
@@ -1103,7 +1104,7 @@
 	Invert All	すべて反転
 	Invert has no settings.	階調の反転には設定がありません。
 	Italic	イタリック
-	Join us on Discord	Discord に参加
+	Join the community	Join the community
 	Justify all	均等配置(最終行も)
 	Justify last centered	最終行中央揃えの両端揃え
 	Justify last left	最終行左揃えの両端揃え
@@ -1238,9 +1239,9 @@
 	Perspective Warp is not active	遠近法ワープは有効ではありません
 	Perspective Warp: draw planes along the image's perspective, then switch to Warp	遠近法ワープ: 画像の遠近に沿って面を描き、ワープに切り替えます
 	Photo Filter	写真フィルター
-	PhotoCraft	PhotoCraft
+	Atelier Photo	Atelier Photo
 	PhotoCraft Manages Colors	PhotoCraft でカラーを管理
-	PhotoCraft — an open-source, native image editor written in Rust.	PhotoCraft — Rust で書かれた、オープンソースのネイティブ画像エディター。
+	Atelier Photo — an open-source, native image editor written in Rust.	Atelier Photo — an open-source, native image editor written in Rust.
 	Pin Depth:	ピンの深さ:
 	Pixel Length:	ピクセル長:
 	Pixels/Centimeter	ピクセル/センチメートル
@@ -1501,7 +1502,7 @@
 	Apple Watch 45mm	Apple Watch 45mm
 	Aqua	アクア
 	Art & Illustration	アート・イラスト
-	ArtCraft	ArtCraft
+	Claude Academy	Claude Academy
 	Background Eraser Tool	背景消しゴムツール
 	Bevel & Emboss	ベベルとエンボス
 	Blend Mode	描画モード
@@ -1637,7 +1638,7 @@
 	Pen Tilt	ペンの傾き
 	Pen Tool	ペンツール
 	Photo	写真
-	PhotoCraft website	PhotoCraft の Web サイト
+	Atelier Photo website	Atelier Photo website
 	Picas	パイカ
 	Pillow Emboss	ピローエンボス
 	Pixel Replacement	ピクセルの置き換え
@@ -3178,7 +3179,7 @@ fontWeight	Italic	斜体
 	Install Plug-in	プラグインをインストール
 	Intersect with	共通部分
 	Intersect with selection  (⇧⌥)	選択範囲との共通部分  (⇧⌥)
-	Join the ArtCraft Discord	ArtCraft の Discord に参加
+	Claude Academy community	Claude Academy community
 	Keep proportions	縦横比を固定
 	Keep view in sync	ビューを同期
 	Keeps the current texture when switching presets.	プリセットを切り替えても現在のテクスチャを維持します。

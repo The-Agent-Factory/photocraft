@@ -1,3 +1,4 @@
+# Modified by The Agent Factory for Claude Academy: rebranding only (see BRANDING.md).
 # Czech (cs) catalog. Columns, separated by a TAB:  context <TAB> source <TAB> translation
 #
 #   context  empty                a plain UI string; `source` is the English text in the code
@@ -712,11 +713,11 @@
 	Timeline	Časová osa
 	Tool Presets	Přednastavení nástrojů
 	Tools	Nástroje
-	About PhotoCraft	O aplikaci PhotoCraft
-	PhotoCraft Website	Web PhotoCraft
+	About Atelier Photo	About Atelier Photo
+	Atelier Photo Website	Atelier Photo Website
 	PhotoCraft on GitHub	PhotoCraft na GitHubu
-	ArtCraft Website	Web ArtCraft
-	Join the ArtCraft Discord…	Připojit se k Discordu ArtCraft…
+	Claude Academy website	Claude Academy website
+	Claude Academy community…	Claude Academy community…
 	Report an Issue…	Nahlásit problém…
 	WIA Support…	Podpora WIA…
 	Apply	Použít
@@ -981,7 +982,7 @@
 	Diffusion	Difuze
 	Discard the embedded profile (don't color manage)	Zahodit vložený profil (bez správy barev)
 	Discontiguous	Nesouvislé
-	Discord	Discord
+	Community	Community
 	Dismiss	Zavřít
 	Display P3	Display P3
 	Display Text	Zobrazený text
@@ -1113,7 +1114,7 @@
 	Invert All	Invertovat vše
 	Invert has no settings.	Invertovat nemá žádná nastavení.
 	Italic	Kurzíva
-	Join us on Discord	Přidejte se k nám na Discordu
+	Join the community	Join the community
 	Justify all	Do bloku vše
 	Justify last centered	Do bloku, poslední řádek na střed
 	Justify last left	Do bloku, poslední řádek vlevo
@@ -1248,9 +1249,9 @@
 	Perspective Warp is not active	Perspektivní deformace není aktivní
 	Perspective Warp: draw planes along the image's perspective, then switch to Warp	Perspektivní deformace: nakreslete roviny podle perspektivy obrazu a pak přepněte na deformaci
 	Photo Filter	Fotografický filtr
-	PhotoCraft	PhotoCraft
+	Atelier Photo	Atelier Photo
 	PhotoCraft Manages Colors	Barvy spravuje PhotoCraft
-	PhotoCraft — an open-source, native image editor written in Rust.	PhotoCraft — nativní editor obrázků s otevřeným zdrojovým kódem napsaný v jazyce Rust.
+	Atelier Photo — an open-source, native image editor written in Rust.	Atelier Photo — an open-source, native image editor written in Rust.
 	Pin Depth:	Hloubka špendlíku:
 	Pixel Length:	Délka v pixelech:
 	Pixels/Centimeter	Pixely/centimetr
@@ -1513,7 +1514,7 @@
 	Apple Watch 45mm	Apple Watch 45 mm
 	Aqua	Akvamarínové
 	Art & Illustration	Umění a ilustrace
-	ArtCraft	ArtCraft
+	Claude Academy	Claude Academy
 	Background Eraser Tool	Nástroj guma pozadí
 	Bevel & Emboss	Úkos a reliéf
 	Blend Mode	Režim prolnutí
@@ -1648,7 +1649,7 @@
 	Pen Tilt	Náklon pera
 	Pen Tool	Nástroj pero
 	Photo	Fotografie
-	PhotoCraft website	Web PhotoCraft
+	Atelier Photo website	Atelier Photo website
 	Picas	Pica
 	Pillow Emboss	Polštářový reliéf
 	Pixel Replacement	Nahrazení pixelů

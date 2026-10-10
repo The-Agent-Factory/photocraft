@@ -1,3 +1,4 @@
+# Modified by The Agent Factory for Claude Academy: rebranding only (see BRANDING.md).
 # Ukrainian (uk) catalog. UTF-8: context<TAB>English source<TAB>translation.
 # Context: empty = plain label; @id = command id; @plural = English one|other;
 # other values disambiguate labels (for example cameraRaw and fontWeight).
@@ -446,12 +447,12 @@
 	Hide All	Приховати все
 
 # Help
-	About PhotoCraft	Про PhotoCraft
-	PhotoCraft Website	Вебсайт PhotoCraft
+	About Atelier Photo	About Atelier Photo
+	Atelier Photo Website	Atelier Photo Website
 	PhotoCraft on GitHub	PhotoCraft на GitHub
 	Report an Issue…	Повідомити про проблему…
-	ArtCraft Website	Вебсайт ArtCraft
-	Join the ArtCraft Discord…	Приєднатися до Discord ArtCraft…
+	Claude Academy website	Claude Academy website
+	Claude Academy community…	Claude Academy community…
 	System Info…	Інформація про систему…
 
 # Tools and options bar
@@ -1547,9 +1548,9 @@
 	Preserve Transparency	Зберігати прозорість
 	Reverse	Зворотний
 	Align with layer	Вирівняти за шаром
-	Join us on Discord	Приєднуйтеся до нас у Discord
-	PhotoCraft website	Вебсайт PhotoCraft
-	ArtCraft	ArtCraft
+	Join the community	Join the community
+	Atelier Photo website	Atelier Photo website
+	Claude Academy	Claude Academy
 	GitHub	GitHub
 	No character style	Без стилю символів
 	No author	Автор відсутній
@@ -1956,7 +1957,7 @@
 	Delete tool preset	Видалити набір інструмента
 	Depth Jitter	Коливання глибини
 	Discontiguous	Несуміжні
-	Discord	Discord
+	Community	Community
 	Display P3	Display P3
 	Display Text	Показувати текст
 	Divide…	Розділити…
@@ -2041,8 +2042,8 @@
 	Output:	Вихід:
 	Paint Overlay	Малювати накладання
 	Pattern Size	Розмір візерунка
-	PhotoCraft	PhotoCraft
-	PhotoCraft — an open-source, native image editor written in Rust.	PhotoCraft — нативний редактор зображень із відкритим кодом, написаний на Rust.
+	Atelier Photo	Atelier Photo
+	Atelier Photo — an open-source, native image editor written in Rust.	Atelier Photo — an open-source, native image editor written in Rust.
 	Position and Size	Положення та розмір
 	Preserve Details	Зберігати деталі
 	Preserve Luminosity	Зберігати світність
@@ -3157,7 +3158,7 @@ cameraRaw	Masking	Маскування
 	Custom Pixel Aspect Ratio	Довільне співвідношення сторін пікселя
 	32-bit Preview Options	Параметри 32-бітного перегляду
 	New Guide	Нова напрямна
-	Join the ArtCraft Discord	Приєднатися до Discord ArtCraft
+	Claude Academy community	Claude Academy community
 	Report an Issue	Повідомити про проблему
 	WIA Support	Підтримка WIA
 	Load Files into Stack	Завантажити файли у стос

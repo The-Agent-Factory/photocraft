@@ -1,3 +1,4 @@
+# Modified by The Agent Factory for Claude Academy: rebranding only (see BRANDING.md).
 # Simplified Chinese (zh-hans) catalog. UTF-8, TAB-separated columns:
 # context <TAB> English source <TAB> Simplified Chinese translation
 #
@@ -708,11 +709,11 @@
 	Timeline	时间轴
 	Tool Presets	工具预设
 	Tools	工具
-	About PhotoCraft	关于 PhotoCraft
-	PhotoCraft Website	PhotoCraft 网站
+	About Atelier Photo	About Atelier Photo
+	Atelier Photo Website	Atelier Photo Website
 	PhotoCraft on GitHub	PhotoCraft 的 GitHub 页面
-	ArtCraft Website	ArtCraft 网站
-	Join the ArtCraft Discord…	加入 ArtCraft 的 Discord 社区…
+	Claude Academy website	Claude Academy website
+	Claude Academy community…	Claude Academy community…
 	Report an Issue…	报告问题…
 	WIA Support…	WIA 支持…
 	Apply	应用
@@ -971,7 +972,7 @@
 	Diffusion	扩散
 	Discard the embedded profile (don't color manage)	丢弃嵌入的配置文件（不进行色彩管理）
 	Discontiguous	不连续
-	Discord	Discord
+	Community	Community
 	Dismiss	关闭
 	Display P3	Display P3
 	Display Text	显示文字
@@ -1105,7 +1106,7 @@
 	Invert All	全部反相
 	Invert has no settings.	反相没有可调整的设置。
 	Italic	斜体
-	Join us on Discord	加入我们的 Discord 社区
+	Join the community	Join the community
 	Justify all	全部两端对齐
 	Justify last centered	两端对齐，末行居中
 	Justify last left	两端对齐，末行左对齐
@@ -1242,9 +1243,9 @@
 	Perspective Warp is not active	透视变形尚未启用
 	Perspective Warp: draw planes along the image's perspective, then switch to Warp	透视变形：沿图像透视绘制平面，然后切换到变形
 	Photo Filter	照片滤镜
-	PhotoCraft	PhotoCraft
+	Atelier Photo	Atelier Photo
 	PhotoCraft Manages Colors	由 PhotoCraft 管理颜色
-	PhotoCraft — an open-source, native image editor written in Rust.	PhotoCraft — 用 Rust 编写的开源原生图像编辑器。
+	Atelier Photo — an open-source, native image editor written in Rust.	Atelier Photo — an open-source, native image editor written in Rust.
 	Pin Depth:	控制点深度：
 	Pixel Length:	像素长度：
 	Pixels/Centimeter	像素/厘米
@@ -1508,7 +1509,7 @@
 	Apple Watch 45mm	Apple Watch 45mm
 	Aqua	水绿色
 	Art & Illustration	艺术与插画
-	ArtCraft	ArtCraft
+	Claude Academy	Claude Academy
 	Background Eraser Tool	背景橡皮擦工具
 	Bevel & Emboss	斜面和浮雕
 	Blend Mode	混合模式
@@ -1645,7 +1646,7 @@
 	Pen Tilt	钢笔倾斜
 	Pen Tool	钢笔工具
 	Photo	照片
-	PhotoCraft website	PhotoCraft 网站
+	Atelier Photo website	Atelier Photo website
 	Picas	派卡
 	Pillow Emboss	枕状浮雕
 	Pixel Replacement	像素替换

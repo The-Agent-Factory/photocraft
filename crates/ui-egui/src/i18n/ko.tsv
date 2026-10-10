@@ -1,3 +1,4 @@
+# Modified by The Agent Factory for Claude Academy: rebranding only (see BRANDING.md).
 # Korean (ko) catalog. UTF-8: context<TAB>English source<TAB>translation.
 # Empty context: plain UI text; @id: command ID; @plural: one|other source
 # with one Korean form. Other contexts disambiguate English meanings.
@@ -684,11 +685,11 @@
 	Timeline	타임라인
 	Tool Presets	도구 사전 설정
 	Tools	도구
-	About PhotoCraft	PhotoCraft 정보
-	PhotoCraft Website	PhotoCraft 웹사이트
+	About Atelier Photo	About Atelier Photo
+	Atelier Photo Website	Atelier Photo Website
 	PhotoCraft on GitHub	GitHub의 PhotoCraft
-	ArtCraft Website	ArtCraft 웹사이트
-	Join the ArtCraft Discord…	ArtCraft Discord 참여…
+	Claude Academy website	Claude Academy website
+	Claude Academy community…	Claude Academy community…
 	Report an Issue…	문제 신고…
 	WIA Support…	WIA 지원…
 	Apply	적용
@@ -948,7 +949,7 @@
 	Diffusion	확산
 	Discard the embedded profile (don't color manage)	포함된 프로파일 버리기(색상 관리 안 함)
 	Discontiguous	비인접
-	Discord	Discord
+	Community	Community
 	Dismiss	닫기
 	Display P3	Display P3
 	Display Text	표시 텍스트
@@ -1074,7 +1075,7 @@
 	Invert All	모두 반전
 	Invert has no settings.	반전에는 설정이 없습니다.
 	Italic	기울임꼴
-	Join us on Discord	Discord 참여
+	Join the community	Join the community
 	Justify all	모든 줄 양쪽 정렬
 	Justify last centered	마지막 줄 가운데 정렬
 	Justify last left	마지막 줄 왼쪽 정렬
@@ -1209,9 +1210,9 @@
 	Perspective Warp is not active	원근 뒤틀기가 활성화되어 있지 않습니다
 	Perspective Warp: draw planes along the image's perspective, then switch to Warp	원근 뒤틀기: 이미지의 원근에 따라 평면을 그린 다음 뒤틀기로 전환하세요
 	Photo Filter	포토 필터
-	PhotoCraft	PhotoCraft
+	Atelier Photo	Atelier Photo
 	PhotoCraft Manages Colors	PhotoCraft에서 색상 관리
-	PhotoCraft — an open-source, native image editor written in Rust.	PhotoCraft — Rust로 작성된 오픈 소스 네이티브 이미지 편집기.
+	Atelier Photo — an open-source, native image editor written in Rust.	Atelier Photo — an open-source, native image editor written in Rust.
 	Pin Depth:	핀 깊이:
 	Pixel Length:	픽셀 길이:
 	Pixels/Centimeter	픽셀/센티미터
@@ -1472,7 +1473,7 @@
 	Apple Watch 45mm	Apple Watch 45mm
 	Aqua	청록
 	Art & Illustration	아트 및 일러스트레이션
-	ArtCraft	ArtCraft
+	Claude Academy	Claude Academy
 	Background Eraser Tool	배경 지우개 도구
 	Bevel & Emboss	경사와 엠보스
 	Blend Mode	혼합 모드
@@ -1607,7 +1608,7 @@
 	Pen Tilt	펜 기울기
 	Pen Tool	펜 도구
 	Photo	사진
-	PhotoCraft website	PhotoCraft 웹사이트
+	Atelier Photo website	Atelier Photo website
 	Picas	파이카
 	Pillow Emboss	쿠션 엠보스
 	Pixel Replacement	픽셀 대체
@@ -2513,7 +2514,7 @@ cameraRaw	Color	색상
 	Custom Pixel Aspect Ratio	사용자 정의 픽셀 종횡비
 	32-bit Preview Options	32비트 미리 보기 옵션
 	New Guide	새 안내선
-	Join the ArtCraft Discord	ArtCraft Discord 참여
+	Claude Academy community	Claude Academy community
 	Report an Issue	문제 신고
 	WIA Support	WIA 지원
 	Load Files into Stack	파일을 스택으로 불러오기

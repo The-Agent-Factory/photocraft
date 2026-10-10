@@ -1,3 +1,4 @@
+// Modified by The Agent Factory for Claude Academy: rebranding only (see BRANDING.md).
 //! Chrome around the canvas: title bar, options bar, toolbar, status bar, dock cards, Properties.
 
 use egui::{Align2, Color32, CornerRadius, Pos2, Rect, RichText, Sense, Stroke, StrokeKind, pos2, vec2};
@@ -513,7 +514,7 @@ pub fn title_bar(app: &mut PhotocraftApp, ui: &mut egui::Ui) {
                 let max = ui.ctx().input(|i| i.viewport().maximized.unwrap_or(false));
                 ui.ctx().send_viewport_cmd(egui::ViewportCommand::Maximized(!max));
             }
-            let title = app.session.active().map(|d| format!("{}{}", d.doc.name, if d.is_dirty() { "  •" } else { "" })).unwrap_or_else(|| "PhotoCraft".into());
+            let title = app.session.active().map(|d| format!("{}{}", d.doc.name, if d.is_dirty() { "  •" } else { "" })).unwrap_or_else(|| "Atelier Photo".into());
             // The menus and the right-hand controls are laid out first; the title is centred in
             // whatever room is left between them, shortened or dropped rather than drawn over them.
             let (mut menus_right, mut controls_left) = (full.left(), full.right());
@@ -580,10 +581,10 @@ pub fn title_bar(app: &mut PhotocraftApp, ui: &mut egui::Ui) {
                     if ui.available_width() >= DISCORD_ROOM {
                         let discord = egui::Button::image_and_text(
                             icons::image("message-square", 14.0, t.text_dim),
-                            egui::RichText::new(tl!("Discord")).color(t.text_dim).size(12.0),
+                            egui::RichText::new(tl!("Community")).color(t.text_dim).size(12.0),
                         )
                         .frame(false);
-                        if ui.add(discord).on_hover_text(format!("Join the ArtCraft Discord ({})", crate::links::DISCORD)).clicked() {
+                        if ui.add(discord).on_hover_text(format!("Claude Academy community ({})", crate::links::DISCORD)).clicked() {
                             crate::links::open(app, ui.ctx(), crate::links::DISCORD);
                         }
                     }
@@ -625,7 +626,7 @@ pub fn system_title_bar(app: &PhotocraftApp) -> bool {
 /// marks unsaved changes, like the `•` in the app-drawn title), or just the app name with no
 /// document open.
 pub fn window_title(app: &PhotocraftApp) -> String {
-    app.session.active().map(|d| format!("{}{} \u{2014} PhotoCraft", if d.is_dirty() { "*" } else { "" }, d.doc.name)).unwrap_or_else(|| "PhotoCraft".into())
+    app.session.active().map(|d| format!("{}{} \u{2014} Atelier Photo", if d.is_dirty() { "*" } else { "" }, d.doc.name)).unwrap_or_else(|| "Atelier Photo".into())
 }
 
 /// Keep the OS window title (and the taskbar / Alt-Tab entry) on the active file. Sends
@@ -709,12 +710,12 @@ mod title_tests {
     fn window_title_follows_the_active_file() {
         let mut app = app(true);
         open_named(&mut app, "foo.psd");
-        assert_eq!(window_title(&app), "foo.psd \u{2014} PhotoCraft");
+        assert_eq!(window_title(&app), "foo.psd \u{2014} Atelier Photo");
         // Unsaved changes gain a `*` prefix, like the `•` in the app-drawn title.
         if let Some(st) = app.session.active_mut() {
             st.revision += 1;
         }
-        assert_eq!(window_title(&app), "*foo.psd \u{2014} PhotoCraft");
+        assert_eq!(window_title(&app), "*foo.psd \u{2014} Atelier Photo");
     }
 
     #[test]
@@ -765,7 +766,7 @@ mod title_tests {
         assert!(!cmds.iter().any(|c| matches!(c, egui::ViewportCommand::Title(_))), "repeat Title: {cmds:?}");
         open_named(&mut app, "foo.psd");
         super::sync_window_title(&mut app, &ctx);
-        assert_eq!(app.last_window_title, "foo.psd \u{2014} PhotoCraft");
+        assert_eq!(app.last_window_title, "foo.psd \u{2014} Atelier Photo");
     }
 }
 

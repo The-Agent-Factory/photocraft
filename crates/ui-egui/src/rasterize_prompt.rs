@@ -1,3 +1,4 @@
+// Modified by The Agent Factory for Claude Academy: rebranding only (see BRANDING.md).
 //! "Rasterize?" prompt: painting the pixels of a type, shape, Smart Object or fill layer with a
 //! pixel tool asks first, as Photoshop does ("This type layer must be rasterized before
 //! proceeding. Its text will no longer be editable. Rasterize the type?"), instead of failing
@@ -112,7 +113,7 @@ pub fn open(app: &mut PhotocraftApp, kind: Kind, layer: photocraft_doc::LayerId,
     let mut f = Map::new();
     f.insert(MARK.into(), json!(kind.key()));
     f.insert("__command".into(), json!(kind.command()));
-    f.insert("__label".into(), json!("PhotoCraft"));
+    f.insert("__label".into(), json!("Atelier Photo"));
     f.insert("message".into(), json!(kind.message()));
     f.insert("layer".into(), json!(layer.0));
     f.insert("tool".into(), json!(format!("{tool:?}")));
